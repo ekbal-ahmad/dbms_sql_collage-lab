@@ -1,24 +1,6 @@
 -- =====================================================
 -- DBMS LAB FINAL COMPLETE PROGRAM
 -- B.P. Mandal College of Engineering
--- Oracle SQL Developer Compatible
--- =====================================================
-
--- ==========================
--- SAFE DROP TABLES
--- ==========================
-
-BEGIN EXECUTE IMMEDIATE 'DROP TABLE Enrollment CASCADE CONSTRAINTS'; EXCEPTION WHEN OTHERS THEN NULL; END;
-/
-BEGIN EXECUTE IMMEDIATE 'DROP TABLE Course CASCADE CONSTRAINTS'; EXCEPTION WHEN OTHERS THEN NULL; END;
-/
-BEGIN EXECUTE IMMEDIATE 'DROP TABLE Faculty CASCADE CONSTRAINTS'; EXCEPTION WHEN OTHERS THEN NULL; END;
-/
-BEGIN EXECUTE IMMEDIATE 'DROP TABLE Student CASCADE CONSTRAINTS'; EXCEPTION WHEN OTHERS THEN NULL; END;
-/
-BEGIN EXECUTE IMMEDIATE 'DROP TABLE Department CASCADE CONSTRAINTS'; EXCEPTION WHEN OTHERS THEN NULL; END;
-/
-
 -- ==========================
 -- CREATE TABLES
 -- ==========================
@@ -175,3 +157,4 @@ SELECT * FROM Faculty;
 SELECT * FROM Course;
 SELECT * FROM Student;
 SELECT * FROM Enrollment;
+
