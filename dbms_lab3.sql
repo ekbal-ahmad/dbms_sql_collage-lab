@@ -145,6 +145,20 @@ INSERT INTO Student VALUES (7,'Vikash Kumar',DATE '2003-03-17','Male','978901234
 INSERT INTO Student VALUES (8,'Pooja Sharma',DATE '2002-12-05','Female','9890123456',7);
 INSERT INTO Student VALUES (9,'Rohit Kumar',DATE '2003-06-25','Male','9901234567',5);
 INSERT INTO Student VALUES (10,'Sneha Kumari',DATE '2002-09-15','Female','9012345678',7);
+-- ==========================
+-- INSERT ENROLLMENT DATA
+-- ==========================
+INSERT INTO Enrollment VALUES (1,1001,'2nd Sem','A');
+INSERT INTO Enrollment VALUES (2,1002,'2nd Sem','A+');
+INSERT INTO Enrollment VALUES (3,2001,'3rd Sem','B');
+INSERT INTO Enrollment VALUES (4,2002,'3rd Sem','C');
+INSERT INTO Enrollment VALUES (5,3001,'5th Sem','A+');
+INSERT INTO Enrollment VALUES (6,1003,'2nd Sem','C');
+INSERT INTO Enrollment VALUES (7,1004,'2nd Sem','B');
+INSERT INTO Enrollment VALUES (8,2003,'3rd Sem','A');
+INSERT INTO Enrollment VALUES (9,3002,'5th Sem','A+');
+INSERT INTO Enrollment VALUES (10,4001,'7th Sem','A');
+
 
 COMMIT;
 
@@ -157,4 +171,5 @@ SELECT * FROM Faculty;
 SELECT * FROM Course;
 SELECT * FROM Student;
 SELECT * FROM Enrollment;
+
 
